@@ -84,6 +84,17 @@ aside a {
 	text-decoration:none;
 	
 }
+
+/*breakpoint*/
+@media only screen and (max-width:480px) {
+section{
+	margin:auto;
+	padding: 0;
+	width: 100%;
+	background: #beebfc;
+	
+}
+}
 /* CORPO DO SITE*/
 
 section{
