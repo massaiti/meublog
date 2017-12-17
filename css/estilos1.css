@@ -1,0 +1,266 @@
+/*corpo*/
+*{
+margin:0px;
+padding:0px;
+}
+header img{
+	width:100%;
+}
+
+
+section{
+	margin:auto;
+	padding: 0;
+	width: 70%;
+	background: #beebfc;
+	
+}
+
+ul{
+	list-style-type: none;	
+}
+body {
+	
+	background: url('../imagens/fundo2.png') repeat ;
+	font-family: Helvetica, sans-serif;
+	
+	color: #333;
+}
+
+
+ aside {
+	float: right;
+	width: 35%;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+	min-width:180px;
+}
+article {
+	width: 50%;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+	float: left;
+	min-width:200px;
+
+}
+
+aside h2 {
+	margin: 0 0 20px 0;
+	
+	font-size:1em;
+}
+aside p{
+	font-size: 0.7em;	
+}
+
+aside li {
+	padding:0px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+	border: 4px solid #ccc;
+}
+
+.imgeric{
+
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:115px;
+	height:150px;
+}
+aside img.redesocial{
+height:30px;
+width:30px;		
+	
+}
+/*MENU*/
+
+
+
+nav a:hover{
+
+	cursor:pointer;
+	color: #CCC;
+	background:64d3fd;
+	
+}
+nav  {
+	
+	padding:10px 0px 10px 0;
+	width:100%;
+	background:#64d3fd;
+	font-size: 1em;
+	}
+
+nav h1 {
+	
+    color: #ccc;
+}
+
+nav ul{	
+
+	display: inline;
+	margin: 0px 0px 0px 0px;
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+
+nav li {
+	padding:10px 30px 10px 30px;
+	display: inline;
+	}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+}
+aside a {
+	text-decoration:none;
+	
+}
+
+
+/* RODAPÉ DO SITE*/
+footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+}
+/*skills */
+.hab{
+	font-size:0.9em;
+	display:block;
+	background-color:lightgray;
+	width:100%;
+	margin-bottom:10px;
+}
+#html{
+
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:85%;
+
+}
+#css{
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:75%;
+
+}
+#js{
+
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:70%;
+
+}
+#design{
+
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:30%;
+
+}
+#c{
+
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:80%;
+
+}
+#jv{
+
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:85%;
+
+}
+#pt{
+
+	color:white;
+	display:block;
+	background-color:#4D9EBD;
+	width:20%;
+
+}
+/*break point*/
+
+@media(max-width:720px){
+	section{
+	width:100%;
+	}
+	nav li{
+		padding:0px;
+		width:100%;
+		text-align:center;
+		display:inline-block;
+	}
+	article p,li{
+		font-size:0.8em;
+	}
+	article h2{
+		font-size:1em;
+	}
+	article{
+		width:100%;
+		clear:both;
+		margin:0px;
+		padding:0px;
+	}
+	aside{
+		width:100%;
+		clear:both;
+		margin:0px;
+		padding:0px;
+	}
+	aside h2 {
+	
+	font-size:0.5em;
+}
+aside p{
+	font-size: 0.6em;	
+}
+
+nav{
+	padding:0px;
+	margin:0px;
+}
+
+nav ul{	
+
+	display: inline;
+	font-size: 0.9em;
+	font-weight: bolder;
+}
+nav li {
+	margin-top:5px;
+	margin-bottom:px;
+
+
+}
+
+.hab{
+	font-size:0.6em;
+	display:block;
+	background-color:lightgray;
+	width:100%;
+	margin-bottom:10px;
+}
+.imgeric{
+
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:0;
+	height:0;
+}
+}
