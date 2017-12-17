@@ -1,11 +1,15 @@
+/*cabeçalho*/
+
+header img{
+	width:100%;
+}
+
 /*corpo*/
 *{
 margin:0px;
 padding:0px;
 }
-header img{
-	width:100%;
-}
+
 
 
 section{
@@ -122,6 +126,7 @@ aside a {
 
 /* RODAPÉ DO SITE*/
 footer {
+	width:100%;
 	clear: both;
 	background: #eee;
 	padding: 10px;
@@ -192,6 +197,22 @@ footer {
 	width:20%;
 
 }
+/*flex box*/
+section { 
+		flex-flow: row wrap; 
+		display: flex;
+		margin: auto	
+	} 
+section article span { 
+		flex: auto; 
+		width: 200px; 
+	}
+section article span img { 
+		width: 30vw; 
+		height: 15vw; 
+		margin:auto;
+		margin-bottom:10px;
+	}
 /*break point*/
 
 @media(max-width:720px){
@@ -217,17 +238,18 @@ footer {
 		padding:0px;
 	}
 	aside{
-		width:100%;
+		
+		width:90%;
 		clear:both;
-		margin:0px;
+		margin:0 auto;
 		padding:0px;
 	}
-	aside h2 {
+	aside h2,h3 {
 	
-	font-size:0.5em;
+	font-size:0.8em;
 }
 aside p{
-	font-size: 0.6em;	
+	font-size: 0.7em;	
 }
 
 nav{
@@ -260,7 +282,14 @@ nav li {
 	float:left;
 	margin:0px;
 	padding:0px;
-	width:0;
-	height:0;
+	width:20vw;
+	height:25vw;
 }
+
+section article span img { 
+		width: 100vw; 
+		height: 50vw; 
+		margin-bottom:5px;
+		
+	}
 }
